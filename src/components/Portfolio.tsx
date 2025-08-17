@@ -422,7 +422,7 @@ const Portfolio = () => {
                 <div className="grid grid-cols-2 gap-4 pt-6">
                   <div className="flex items-center space-x-2">
                     <MapPin size={20} className="text-blue-700" />
-                    <span>Rabat, Maroc</span>
+                    <span>Casablanca, Rabat, Maroc</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Phone size={20} className="text-amber-600" />
@@ -729,7 +729,7 @@ const Portfolio = () => {
                     </div>
                     <div>
                       <p className="font-semibold">Localisation</p>
-                      <p>Rabat, Maroc</p>
+                      <p>Casablanca, Rabat, Maroc</p>
                     </div>
                   </div>
                 </div>
@@ -872,7 +872,7 @@ const Portfolio = () => {
               </a>
             </div>
             <p className={`text-xs ${isDark ? 'text-gray-500' : 'text-gray-400'} mt-6`}>
-              © 2025 EL KHYARI ILYAS. Tous droits réservés.
+              © 2025  EL KHYARI ILYAS. Tous droits réservés.
             </p>
           </div>
         </div>
