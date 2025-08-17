@@ -28,12 +28,26 @@ const Portfolio = () => {
 
   // Fonction pour télécharger le CV
   const downloadCV = () => {
-    const link = document.createElement('a');
-    link.href = '/cv/CV-Ilyas-El-Khyari.pdf';
-    link.download = 'CV-Ilyas-El-Khyari.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    try {
+      // Solution simple et robuste
+      const link = document.createElement('a');
+      link.href = '/cv/cv-ilyas.pdf'; // Nom simplifié sans caractères spéciaux
+      link.download = 'CV-Ilyas-ElKhyari.pdf';
+      link.target = '_blank'; // Ouvrir dans un nouvel onglet si le téléchargement échoue
+      
+      // Alternative pour les navigateurs qui bloquent le téléchargement
+      link.rel = 'noopener noreferrer';
+      
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      console.log('Tentative de téléchargement du CV');
+    } catch (error) {
+      console.error('Erreur téléchargement CV:', error);
+      // Fallback : ouvrir directement le PDF
+      window.open('/cv/cv-ilyas.pdf', '_blank');
+    }
   };
 
   // Gérer les changements du formulaire
@@ -54,15 +68,21 @@ const Portfolio = () => {
     try {
       console.log('Tentative d\'envoi email...');
       
-      // Configuration EmailJS - À REMPLACER par les nouvelles clés d'Ilyas
+      // Vérifier qu'EmailJS est disponible
+      if (typeof emailjs === 'undefined') {
+        throw new Error('EmailJS not loaded');
+      }
+      
+      // Configuration EmailJS avec vos IDs - À REMPLACER
       const result = await emailjs.send(
-        'service_cuonmzf',     // NOUVEAU Service ID pour Ilyas
-        'template_0ugt719',    // NOUVEAU Template ID pour Ilyas
+        'service_XXXXX',     // NOUVEAU Service ID pour Ilyas
+        'template_XXXXX',    // NOUVEAU Template ID pour Ilyas
         {
           from_name: formData.nom,
           from_email: formData.email,
           subject: formData.sujet,
           message: formData.message,
+          to_email: 'ilyaskhyari1@gmail.com', // Email de destination
         }
       );
 
@@ -91,7 +111,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     // Initialiser EmailJS - À REMPLACER par la nouvelle clé publique d'Ilyas
-    emailjs.init('i5wVN5FMR_V2qYgE3');
+    emailjs.init('XXXXXXX');
     
     const handleScroll = () => {
       const sections = ['home', 'about', 'experience', 'projects', 'skills', 'certifications', 'education', 'interests', 'contact'];
@@ -149,7 +169,7 @@ const Portfolio = () => {
     },
     {
       company: "DIGIUP Rabat",
-      role: "Développeur Python - Stage",
+      role: "Développeur Full Stack - Stage",
       period: "Juillet-Août 2023",
       description: "Conception et développement d'une solution de gestion d'optique",
       technologies: ["Gestion sécurisée", "Interface client", "Gestion stock", "CRM"],
@@ -228,7 +248,7 @@ const Portfolio = () => {
       degree: "Ingénieur d'État en Informatique - MIAGE",
       school: "EMSI - École Marocaine des Sciences de l'Ingénieur",
       period: "2020-2025",
-      status: "DIPLÔMÉ",
+      status: "EN COURS - DIPLÔMÉ 2025",
       specialty: "Méthodes Informatiques Appliquées à la Gestion des Entreprises"
     },
     {
@@ -323,7 +343,7 @@ const Portfolio = () => {
               <div className="relative">
                 <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-blue-600/30 shadow-2xl">
                   <Image
-                    src="/images/profile.jpg"
+                    src="/images/profile-ilyas.jpg"
                     alt="EL KHYARI ILYAS"
                     width={160}
                     height={160}
@@ -373,7 +393,7 @@ const Portfolio = () => {
               <a href="https://github.com/Ilyasselkh" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/ilyas-elkhyari-73b028253/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300">
+              <a href="https://www.linkedin.com/in/ilyas-el-khyari" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300">
                 <Linkedin size={24} />
               </a>
             </div>
@@ -436,7 +456,7 @@ const Portfolio = () => {
                 <div className="relative z-10 text-center mb-6">
                   <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-blue-700/20 shadow-lg mb-4">
                     <Image
-                      src="/images/profile.jpg"
+                      src="/images/profile-ilyas.jpg"
                       alt="EL KHYARI ILYAS"
                       width={128}
                       height={128}
@@ -720,7 +740,7 @@ const Portfolio = () => {
                     <a href="https://github.com/Ilyasselkh" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-600/20 hover:bg-slate-600/30 rounded-lg transition-colors">
                       <Github size={24} />
                     </a>
-                    <a href="https://www.linkedin.com/in/ilyas-elkhyari-73b028253/" target="_blank" rel="noopener noreferrer" className="p-3 bg-blue-700/20 hover:bg-blue-700/30 rounded-lg transition-colors">
+                    <a href="https://www.linkedin.com/in/ilyas-el-khyari" target="_blank" rel="noopener noreferrer" className="p-3 bg-blue-700/20 hover:bg-blue-700/30 rounded-lg transition-colors">
                       <Linkedin size={24} />
                     </a>
                   </div>
@@ -847,7 +867,7 @@ const Portfolio = () => {
               <a href="https://github.com/Ilyasselkh" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-slate-700 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/ilyas-elkhyari-73b028253/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-800 transition-colors">
+              <a href="https://www.linkedin.com/in/ilyas-el-khyari" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-800 transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
