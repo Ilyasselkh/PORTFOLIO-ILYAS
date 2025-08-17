@@ -144,10 +144,10 @@ const Portfolio = () => {
 
   const experiences = [
     {
-      company: "INETUM Casablanca",
+      company: "INETUM - Casablanca",
       role: "Consultant Technique SAP - Stage de fin d'études",
       period: "Mars-Sept 2025",
-      description: "Analyse et mise en œuvre d'une application FIORI UI5/RAP de gestion des ponts bascules sur SAP",
+      description: "Analyse et mise en œuvre d'une application FIORI UI5/RAP de gestion des ponts bascules sur SAP S4/HANA PUBLIC CLOUD MM (MATERIALS MANAGEMENT)",
       technologies: ["SAP FIORI UI5", "RAP", "ABAP", "SAP S/4HANA", "Excel Integration"],
       highlights: [
         "Gestion centralisée des entités métiers avec interface sécurisée",
@@ -168,7 +168,7 @@ const Portfolio = () => {
       ]
     },
     {
-      company: "DIGIUP Rabat",
+      company: "DIGIUP - Rabat",
       role: "Développeur Full Stack - Stage",
       period: "Juillet-Août 2023",
       description: "Conception et développement d'une solution de gestion d'optique",
