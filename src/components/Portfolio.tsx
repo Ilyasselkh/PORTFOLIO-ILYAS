@@ -182,7 +182,7 @@ const Portfolio = () => {
     {
       company: "CONTIGO-SIEMPRE Remote",
       role: "Conseiller Pédagogique",
-      period: "Juillet-Août 2023",
+      period: "Juillet 2021-Août 2023",
       description: "Consultation clients et traitement complet des dossiers de visa",
       technologies: ["Consultation client", "Traitement dossiers", "Processus visa"],
       highlights: [
@@ -248,7 +248,7 @@ const Portfolio = () => {
       degree: "Ingénieur d'État en Informatique - MIAGE",
       school: "EMSI - École Marocaine des Sciences de l'Ingénieur",
       period: "2020-2025",
-      status: "EN COURS - DIPLÔMÉ 2025",
+      status: "DIPLÔMÉ 2025",
       specialty: "Méthodes Informatiques Appliquées à la Gestion des Entreprises"
     },
     {
@@ -362,10 +362,11 @@ const Portfolio = () => {
               <p className="text-xl sm:text-2xl lg:text-3xl mb-8 text-gray-300">
                 Consultant <span className="text-blue-400">SAP</span> • 
                 Spécialiste <span className="text-amber-400">FIORI UI5/RAP</span> • 
-                Expert <span className="text-blue-600">ABAP</span>
+                Expert <span className="text-blue-600">Gestion des rôles & Autorisations</span> •
+                Ingénieur <span className="text-amber-400">Full Stack</span>
               </p>
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-                Ingénieur MIAGE spécialisé en solutions SAP S/4HANA • Développement d&apos;applications FIORI personnalisées
+                Ingénieur MIAGE spécialisé en SAP S/4HANA Public Cloud et développement FIORI. Compétences étendues en Full Stack (React, Node.js, MongoDB...)
               </p>
             </div>
             
@@ -411,13 +412,18 @@ const Portfolio = () => {
                 <p className="text-lg leading-relaxed">
                   Ingénieur d&apos;État en informatique, option MIAGE (Méthodes Informatiques Appliquées à la 
                   Gestion des Entreprises), passionné par l&apos;intégration des systèmes d&apos;information et les 
-                  solutions ERP. Spécialisé en développement SAP, notamment en ABAP, Gestion des rôles & 
-                  Autorisations, RAP et SAP Fiori/UI5.
+                  solutions ERP. Spécialisé en développement SAP, notamment en Gestion des rôles & Autorisations, 
+                  RAP et SAP Fiori/UI5.
                 </p>
                 <p className="text-lg leading-relaxed">
                   J&apos;ai acquis une solide expérience dans la conception et la mise en œuvre d&apos;applications 
-                  personnalisées sur SAP S/4HANA, avec une forte sensibilité UX via Fiori. Capable de développer 
-                  des solutions techniques performantes, évolutives et alignées avec les meilleures pratiques SAP.
+                  personnalisées sur SAP S/4HANA, avec une forte sensibilité UX via Fiori. 
+                </p>
+                <p className="text-lg leading-relaxed">
+                   Par ailleurs, je suis également intéressé par un profil Java Full Stack, ce qui me permet de combiner
+                   mes compétences backend et frontend pour le développement d&apos;applications web modernes et
+                   complètes. Enthousiaste à l&apos;idée d&apos;innover, d&apos;optimiser les processus métiers et de 
+                   collaborer au sein d&apos;équipes agiles.
                 </p>
                 <div className="grid grid-cols-2 gap-4 pt-6">
                   <div className="flex items-center space-x-2">
@@ -463,14 +469,14 @@ const Portfolio = () => {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold mb-6">Consultant SAP Technique</h3>
+                  <h3 className="text-2xl font-bold mb-6">Ingénieur Full Stack & Consultant SAP Technique</h3>
                 </div>
                 
                 <div className="relative z-10">
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Settings className="text-blue-700" size={24} />
-                      <span>ABAP & FIORI UI5/RAP</span>
+                      <span>Full Stack & FIORI UI5/RAP</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Server className="text-amber-600" size={24} />
@@ -482,8 +488,8 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <div className="mt-6 p-4 bg-gradient-to-r from-blue-700/20 to-amber-600/20 rounded-lg">
-                    <p className="font-semibold">Spécialisation SAP</p>
-                    <p className="text-sm opacity-80">Solutions techniques performantes & UX optimisée</p>
+                    <p className="font-semibold">Consultant SAP & Développeur Full Stack</p>
+                    <p className="text-sm opacity-80">Spécialisation en SAP S/4HANA, FIORI/UI5, RAP et en développement Full Stack.</p>
                   </div>
                 </div>
               </div>
@@ -663,7 +669,7 @@ const Portfolio = () => {
                   <span className="text-2xl">🩸</span>
                 </div>
                 <h3 className="font-bold mb-2">Rotarie - Bénévolat</h3>
-                <p className="text-sm">Actions humanitaires, don du sang</p>
+                <p className="text-sm"> Créer un site web au titre du bénévolat, Actions humanitaires, don du sang</p>
               </div>
               <div className={`p-6 rounded-2xl ${isDark ? 'bg-slate-900' : 'bg-gray-50'} text-center hover:shadow-lg transition-all duration-300`}>
                 <div className="w-16 h-16 mx-auto mb-4 bg-amber-600/20 rounded-full flex items-center justify-center">
@@ -693,9 +699,10 @@ const Portfolio = () => {
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold mb-6">Restons en contact</h3>
                 <p className="text-lg leading-relaxed mb-8">
-                  Consultant SAP spécialisé en ABAP, FIORI UI5/RAP et intégration SAP S/4HANA. 
-                  Passionné par l&apos;optimisation des processus métiers et l&apos;innovation technologique. 
-                  N&apos;hésitez pas à me contacter pour vos projets SAP !
+                  Consultant SAP & Développeur Full Stack.
+                  Spécialisé en FIORI UI5/RAP et en intégration SAP S/4HANA, avec une expertise en technologies Full Stack modernes.
+                  Passionné par l&apos;optimisation des processus métiers et l&apos;innovation technologique, je conçois des solutions robustes, performantes et centrées sur l&apos;UX. 
+                  N&apos;hésitez pas à me contacter pour vos projets !
                 </p>
                 
                 <div className="space-y-4">
@@ -855,10 +862,10 @@ const Portfolio = () => {
               EL KHYARI ILYAS
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-              Consultant SAP • Spécialiste FIORI UI5/RAP • Expert ABAP
+              Consultant SAP • Spécialiste FIORI UI5/RAP • Gestion des rôles & Autorisations
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'} mt-2`}>
-              Solutions SAP S/4HANA & Intégration Systèmes
+              Ingénieur Full Stack
             </p>
             <div className="flex justify-center space-x-6 mt-6">
               <a href="mailto:ilyaskhyari1@gmail.com" className="text-blue-700 hover:text-blue-800 transition-colors">
