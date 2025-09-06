@@ -396,7 +396,7 @@ const Portfolio = () => {
               <a href="https://github.com/Ilyasselkh" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/ilyas-el-khyari" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300">
+              <a href="https://www.linkedin.com/in/ilyas-elkhyari-73b028253/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300">
                 <Linkedin size={24} />
               </a>
             </div>
@@ -749,7 +749,7 @@ const Portfolio = () => {
                     <a href="https://github.com/Ilyasselkh" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-600/20 hover:bg-slate-600/30 rounded-lg transition-colors">
                       <Github size={24} />
                     </a>
-                    <a href="https://www.linkedin.com/in/ilyas-el-khyari" target="_blank" rel="noopener noreferrer" className="p-3 bg-blue-700/20 hover:bg-blue-700/30 rounded-lg transition-colors">
+                    <a href="https://www.linkedin.com/in/ilyas-elkhyari-73b028253/" target="_blank" rel="noopener noreferrer" className="p-3 bg-blue-700/20 hover:bg-blue-700/30 rounded-lg transition-colors">
                       <Linkedin size={24} />
                     </a>
                   </div>
