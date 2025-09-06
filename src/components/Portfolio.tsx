@@ -361,9 +361,9 @@ const Portfolio = () => {
               </h1>
               <p className="text-xl sm:text-2xl lg:text-3xl mb-8 text-gray-300">
                 Ingénieur <span className="text-blue-400">Full Stack</span> • 
-                <span className="text-amber-400">FIORI UI5/RAP</span> • 
-                <span className="text-blue-600">Gestion des rôles & Autorisations</span> •
-                Consultant<span className="text-amber-400">SAP</span>
+                 <span className="text-amber-400">FIORI UI5/RAP</span> • 
+                 <span className="text-blue-600">Gestion des rôles & Autorisations</span> •
+                Consultant <span className="text-amber-400">SAP</span>
               </p>
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
                 Ingénieur MIAGE spécialisé en SAP S/4HANA Public Cloud et développement FIORI. Compétences étendues en Full Stack (React, Node.js, MongoDB...)
