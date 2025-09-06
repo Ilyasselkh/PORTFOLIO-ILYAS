@@ -234,13 +234,15 @@ const Portfolio = () => {
   };
 
   const certifications = [
-    "Python Data Analysis (Certification officielle, 2024)",
+    "Python Data Analysis (Certification officielle, 2023)",
+    " Software Engineering: Software Design and Project Management (Certification officielle, 2023)",
+    " Unix System Basics (Certification, 2023)",
     "Git and GitHub (GitHub Certification, 2024)",
     "Virtual Networks in Azure (Microsoft, 2024)",
     "Docker, Kubernetes & OpenShift (Red Hat, 2024)",
     "React Native (Meta Certification, 2024)",
-    "Neural Networks and Deep Learning (DeepLearning.AI, 2024)",
-    "Introduction to Big Data with Spark and Hadoop (Apache, 2024)"
+    "Neural Networks and Deep Learning (DeepLearning.AI, 2025)",
+    "Introduction to Big Data with Spark and Hadoop (Apache, 2025)"
   ];
 
   const education = [
