@@ -360,10 +360,10 @@ const Portfolio = () => {
                 EL KHYARI ILYAS
               </h1>
               <p className="text-xl sm:text-2xl lg:text-3xl mb-8 text-gray-300">
-                Consultant <span className="text-blue-400">SAP</span> • 
-                Spécialiste <span className="text-amber-400">FIORI UI5/RAP</span> • 
-                Expert <span className="text-blue-600">Gestion des rôles & Autorisations</span> •
-                Ingénieur <span className="text-amber-400">Full Stack</span>
+                Ingénieur <span className="text-blue-400">Full Stack</span> • 
+                <span className="text-amber-400">FIORI UI5/RAP</span> • 
+                <span className="text-blue-600">Gestion des rôles & Autorisations</span> •
+                Consultant<span className="text-amber-400">SAP</span>
               </p>
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
                 Ingénieur MIAGE spécialisé en SAP S/4HANA Public Cloud et développement FIORI. Compétences étendues en Full Stack (React, Node.js, MongoDB...)
@@ -862,10 +862,10 @@ const Portfolio = () => {
               EL KHYARI ILYAS
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-              Consultant SAP • Spécialiste FIORI UI5/RAP • Gestion des rôles & Autorisations
+              Ingénieur Full Stack • FIORI UI5/RAP • Gestion des rôles & Autorisations
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'} mt-2`}>
-              Ingénieur Full Stack
+              Consultant SAP
             </p>
             <div className="flex justify-center space-x-6 mt-6">
               <a href="mailto:ilyaskhyari1@gmail.com" className="text-blue-700 hover:text-blue-800 transition-colors">
