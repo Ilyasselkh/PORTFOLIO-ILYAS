@@ -75,8 +75,8 @@ const Portfolio = () => {
       
       // Configuration EmailJS avec vos IDs - À REMPLACER
       const result = await emailjs.send(
-        'service_XXXXX',     // NOUVEAU Service ID pour Ilyas
-        'template_XXXXX',    // NOUVEAU Template ID pour Ilyas
+        'service_cuonmzf',     // NOUVEAU Service ID pour Ilyas
+        'template_0ugt719',    // NOUVEAU Template ID pour Ilyas
         {
           from_name: formData.nom,
           from_email: formData.email,
@@ -111,7 +111,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     // Initialiser EmailJS - À REMPLACER par la nouvelle clé publique d'Ilyas
-    emailjs.init('XXXXXXX');
+    emailjs.init('i5wVN5FMR_V2qYgE3');
     
     const handleScroll = () => {
       const sections = ['home', 'about', 'experience', 'projects', 'skills', 'certifications', 'education', 'interests', 'contact'];
