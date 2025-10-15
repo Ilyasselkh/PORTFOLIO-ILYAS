@@ -218,8 +218,8 @@ const Portfolio = () => {
     {
       title: "Site Web d'Élevage de Poulets",
       type: "Projet Personnel",
-      description: "Site web pour la gestion d'un élevage de poulets, incluant le suivi des stocks, des ventes et des données d'élevage.",
-      technologies: ["React", "Next.js", "JavaScript", "Tailwind CSS"],
+      description: "Site vitrine présente la société d’élevage La Plume Blanche, mettant en avant son savoir-faire, ses valeurs et la qualité de ses produits.",
+      technologies: ["React", "Next.js", "JavaScript", "Tailwind CSS","EmailJS"],
       highlights: ["Interface intuitive pour gérer les stocks de poulets", "Suivi en temps réel des ventes", "Dashboard administrateur sécurisé"],
       link: "https://elevage-de-poulets-v2.vercel.app/"  //  lien 
     }
