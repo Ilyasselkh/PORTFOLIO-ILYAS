@@ -216,11 +216,12 @@ const Portfolio = () => {
       highlights: ["Base de données optimisée", "Recherche multi-critères", "Interface utilisateur moderne"]
     },
     {
-      title: "Applications de Gestion - Java & Python",
-      type: "Projets Techniques",
-      description: "Développement d'applications de gestion (stock, bibliothèque, clients)",
-      technologies: ["Java Spring Boot", "Java Swing", "Python", "MySQL"],
-      highlights: ["Gestion complète des stocks", "Suivi emprunts/retours", "Dashboard administrateur"]
+      title: "Site Web d'Élevage de Poulets",
+      type: "Projet Personnel",
+      description: "Site web pour la gestion d'un élevage de poulets, incluant le suivi des stocks, des ventes et des données d'élevage.",
+      technologies: ["React", "Next.js", "JavaScript", "Tailwind CSS"],
+      highlights: ["Interface intuitive pour gérer les stocks de poulets", "Suivi en temps réel des ventes", "Dashboard administrateur sécurisé"],
+      link: "https://elevage-de-poulets-v2.vercel.app/"  //  lien 
     }
   ];
 
@@ -546,21 +547,7 @@ const Portfolio = () => {
         </section>
 
         {/* Projects Section */}
-        <section id="projects" className={`py-20 ${isDark ? 'bg-slate-800' : 'bg-white'}`}>
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-blue-700 to-amber-600 bg-clip-text text-transparent">
-              Projets Académiques
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {projects.map((project, index) => (
-                <div key={index} className={`p-6 rounded-2xl ${isDark ? 'bg-slate-900' : 'bg-gray-50'} hover:shadow-xl transition-all duration-300 group`}>
-                  <div className="flex items-start justify-between mb-4">
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 group-hover:text-blue-700 transition-colors">{project.title}</h3>
-                      <p className="text-sm text-amber-600 font-medium">{project.type}</p>
-                    </div>
-                    <ExternalLink size={20} className="text-gray-400 group-hover:text-blue-700 transition-colors" />
-                  </div>
+                          </div>
                   <p className="mb-4 leading-relaxed">{project.description}</p>
                   <div className="mb-4">
                     <h4 className="font-semibold mb-2">Points clés :</h4>
