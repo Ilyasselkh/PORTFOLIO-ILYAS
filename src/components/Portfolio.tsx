@@ -363,13 +363,13 @@ const Portfolio = () => {
                 EL KHYARI ILYAS
               </h1>
               <p className="text-xl sm:text-2xl lg:text-3xl mb-8 text-gray-300">
-                Ingénieur <span className="text-blue-400">QA / Test Logiciel</span> • 
+                Ingénieur <span className="text-blue-400">Full Stack</span> • 
                  <span className="text-amber-400">FIORI UI5/RAP</span> • 
                  <span className="text-blue-600">Gestion des rôles & Autorisations</span> •
                 Consultant <span className="text-amber-400">SAP</span>
               </p>
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-                Ingénieur MIAGE spécialisé en SAP S/4HANA Public Cloud et développement FIORI. Compétences étendues en test logiciel et assurance qualité (QA).
+                Ingénieur MIAGE spécialisé en SAP S/4HANA Public Cloud et développement FIORI. Compétences étendues en Full Stack (React, Node.js, MongoDB...)
               </p>
             </div>
             
@@ -472,14 +472,14 @@ const Portfolio = () => {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold mb-6">Ingénieur en Test Logiciel & Consultant SAP Technique</h3>
+                  <h3 className="text-2xl font-bold mb-6">Ingénieur Full Stack & Consultant SAP Technique</h3>
                 </div>
                 
                 <div className="relative z-10">
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Settings className="text-blue-700" size={24} />
-                      <span> QA & FIORI UI5/RAP</span>
+                      <span>Full Stack & FIORI UI5/RAP</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Server className="text-amber-600" size={24} />
@@ -491,8 +491,8 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <div className="mt-6 p-4 bg-gradient-to-r from-blue-700/20 to-amber-600/20 rounded-lg">
-                    <p className="font-semibold">Consultant SAP & Ingénieur QA / Test Logiciel</p>
-                    <p className="text-sm opacity-80">Spécialisation en SAP S/4HANA, FIORI/UI5, RAP et en Test Logiciel & QA.</p>
+                    <p className="font-semibold">Consultant SAP & Développeur Full Stack</p>
+                    <p className="text-sm opacity-80">Spécialisation en SAP S/4HANA, FIORI/UI5, RAP et en développement Full Stack.</p>
                   </div>
                 </div>
               </div>
@@ -706,8 +706,10 @@ const Portfolio = () => {
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold mb-6">Restons en contact</h3>
                 <p className="text-lg leading-relaxed mb-8">
-                  Consultant SAP & Test logiciel & QA.
-                  Spécialisé en FIORI UI5/RAP et en intégration SAP S/4HANA, avec une expertise en test logiciel et assurance qualité (QA). Passionné par l&apos;optimisation des processus métiers et l&apos;innovation technologique, je conçois des solutions robustes, performantes et centrées sur l&apos;expérience utilisateur (UX). N&apos;hésitez pas à me contacter pour vos projets !
+                  Consultant SAP & Développeur Full Stack.
+                  Spécialisé en FIORI UI5/RAP et en intégration SAP S/4HANA, avec une expertise en technologies Full Stack modernes.
+                  Passionné par l&apos;optimisation des processus métiers et l&apos;innovation technologique, je conçois des solutions robustes, performantes et centrées sur l&apos;UX. 
+                  N&apos;hésitez pas à me contacter pour vos projets !
                 </p>
                 
                 <div className="space-y-4">
@@ -867,10 +869,10 @@ const Portfolio = () => {
               EL KHYARI ILYAS
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-              Ingénieur d'état • FIORI UI5/RAP • Gestion des rôles & Autorisations
+              Ingénieur Full Stack • FIORI UI5/RAP • Gestion des rôles & Autorisations
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'} mt-2`}>
-              Consultant SAP • Test logiciel & QA
+              Consultant SAP
             </p>
             <div className="flex justify-center space-x-6 mt-6">
               <a href="mailto:ilyaskhyari1@gmail.com" className="text-blue-700 hover:text-blue-800 transition-colors">
