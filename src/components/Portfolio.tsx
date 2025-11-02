@@ -195,6 +195,14 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Site Web d'Élevage de Poulets",
+      type: "Projet Personnel",
+      description: "Site vitrine présente la société d’élevage La Plume Blanche, mettant en avant son savoir-faire, ses valeurs et la qualité de ses produits.",
+      technologies: ["React", "Next.js", "JavaScript", "Tailwind CSS","EmailJS"],
+      highlights: ["Interface intuitive pour gérer les stocks de poulets", "Suivi en temps réel des ventes", "Dashboard administrateur sécurisé"],
+      link: "https://www.laplume-blanche.com/"  //  lien 
+    },
+    {
       title: "Application Web d'Auto Partage - Full Stack MERN",
       type: "Projet Académique",
       description: "Plateforme facilitant la consultation et location de véhicules avec géolocalisation",
@@ -215,14 +223,6 @@ const Portfolio = () => {
       technologies: ["React", "Node.js", "MongoDB", "UI/UX Design"],
       highlights: ["Base de données optimisée", "Recherche multi-critères", "Interface utilisateur moderne"]
     },
-    {
-      title: "Site Web d'Élevage de Poulets",
-      type: "Projet Personnel",
-      description: "Site vitrine présente la société d’élevage La Plume Blanche, mettant en avant son savoir-faire, ses valeurs et la qualité de ses produits.",
-      technologies: ["React", "Next.js", "JavaScript", "Tailwind CSS","EmailJS"],
-      highlights: ["Interface intuitive pour gérer les stocks de poulets", "Suivi en temps réel des ventes", "Dashboard administrateur sécurisé"],
-      link: "https://www.laplume-blanche.com/"  //  lien 
-    }
   ];
 
   const skills = {
