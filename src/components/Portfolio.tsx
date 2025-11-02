@@ -701,10 +701,9 @@ const Portfolio = () => {
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold mb-6">Restons en contact</h3>
                 <p className="text-lg leading-relaxed mb-8">
-                  Consultant SAP & Développeur Full Stack.
-                  Spécialisé en FIORI UI5/RAP et en intégration SAP S/4HANA, avec une expertise en technologies Full Stack modernes.
-                  Passionné par l&apos;optimisation des processus métiers et l&apos;innovation technologique, je conçois des solutions robustes, performantes et centrées sur l&apos;UX. 
-                  N&apos;hésitez pas à me contacter pour vos projets !
+                  Consultant SAP & Développeur Full Stack, spécialisé en FIORI UI5/RAP et en intégration SAP S/4HANA. Passionné par l&apos;optimisation des processus métiers, l&apos;innovation technologique et la qualité logicielle, je conçois des solutions robustes, performantes et centrées sur l&apos;UX, tout en garantissant leur fiabilité via le Test et l&apos;Assurance Qualité (QA).
+
+Je suis ouvert aux opportunités professionnelles dans le développement SAP et Test/QA, et je serais ravi de collaborer sur des projets innovants. N&apos;hésitez pas à me contacter !
                 </p>
                 
                 <div className="space-y-4">
