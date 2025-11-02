@@ -413,20 +413,13 @@ const Portfolio = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <p className="text-lg leading-relaxed">
-                  Ingénieur d&apos;État en informatique, option MIAGE (Méthodes Informatiques Appliquées à la 
-                  Gestion des Entreprises), passionné par l&apos;intégration des systèmes d&apos;information et les 
-                  solutions ERP. Spécialisé en développement SAP, notamment en Gestion des rôles & Autorisations, 
-                  RAP et SAP Fiori/UI5.
+                  Ingénieur d&apos;État en informatique, option MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises), passionné par l&apos;intégration des systèmes d&apos;information, les solutions ERP et la qualité logicielle. Spécialisé en développement SAP, notamment en Gestion des rôles & Autorisations, RAP et SAP Fiori/UI5, avec une forte sensibilité UX et expérience dans la conception d&apos;applications personnalisées sur SAP S/4HANA.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  J&apos;ai acquis une solide expérience dans la conception et la mise en œuvre d&apos;applications 
-                  personnalisées sur SAP S/4HANA, avec une forte sensibilité UX via Fiori. 
+                  Parallèlement, je m&apos;oriente vers le Test et l&apos;Assurance Qualité (QA), avec un intérêt particulier pour l&apos;automatisation des tests, le suivi des processus métiers et l&apos;optimisation des applications web et ERP. Grâce à mes compétences, je peux analyser, tester et améliorer efficacement les applications côté frontend et backend. 
                 </p>
                 <p className="text-lg leading-relaxed">
-                   Par ailleurs, je suis également intéressé par un profil Java Full Stack, ce qui me permet de combiner
-                   mes compétences backend et frontend pour le développement d&apos;applications web modernes et
-                   complètes. Enthousiaste à l&apos;idée d&apos;innover, d&apos;optimiser les processus métiers et de 
-                   collaborer au sein d&apos;équipes agiles.
+                   Je suis enthousiaste à l&apos;idée de rejoindre une équipe agile pour assurer la qualité, optimiser les processus et contribuer à des projets innovants.
                 </p>
                 <div className="grid grid-cols-2 gap-4 pt-6">
                   <div className="flex items-center space-x-2">
