@@ -231,8 +231,10 @@ const Portfolio = () => {
     "Intelligence Artificielle": ["Machine Learning", "Deep Learning", "TensorFlow", "CNN", "NLP", "Reconnaissance faciale"],
     "Base de Données": ["MongoDB", "MySQL", "SQL", "Analyse des données", "ETL"],
     "DevOps & Cloud": ["Docker", "Kubernetes", "OpenShift", "Git", "GitHub", "Azure Networks"],
-    "Gestion de Projet": ["Planification projet", "Résolution problèmes", "Esprit d'équipe", "Adaptabilité", "Analyse résultats"]
-  };
+    "Gestion de Projet": ["Planification projet", "Résolution problèmes", "Esprit d'équipe", "Adaptabilité", "Analyse résultats"],
+    "Test & Automatisation": ["Selenium", "JUnit", "Cypress", "Postman", "JIRA Test Management", "Automated Regression Testing", "Performance Testing"]
+};
+
 
   const certifications = [
     "Python Data Analysis (Certification officielle, 2023)",
