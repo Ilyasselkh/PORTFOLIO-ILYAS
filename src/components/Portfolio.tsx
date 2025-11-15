@@ -373,7 +373,7 @@ const Portfolio = () => {
                 EL KHYARI ILYAS
               </h1>
               <p className="text-xl sm:text-2xl lg:text-3xl mb-8 text-gray-300">
-                Ingénieur <span className="text-blue-400">Full Stack</span> • 
+                Ingénieur <span className="text-blue-400">Test & QA</span> • 
                  <span className="text-amber-400">FIORI UI5/RAP</span> • 
                  <span className="text-blue-600">Gestion des rôles & Autorisations</span> •
                 Consultant <span className="text-amber-400">SAP</span>
@@ -475,14 +475,14 @@ const Portfolio = () => {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold mb-6">Ingénieur Full Stack & Consultant SAP Technique</h3>
+                  <h3 className="text-2xl font-bold mb-6">Ingénieur Test Logiciel & QA & Consultant SAP Technique</h3>
                 </div>
                 
                 <div className="relative z-10">
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Settings className="text-blue-700" size={24} />
-                      <span>Full Stack & FIORI UI5/RAP</span>
+                      <span>Test/QA & FIORI UI5/RAP</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Server className="text-amber-600" size={24} />
@@ -490,12 +490,12 @@ const Portfolio = () => {
                     </div>
                     <div className="flex items-center space-x-3">
                       <Shield className="text-blue-600" size={24} />
-                      <span>Gestion Rôles & Autorisations</span>
+                      <span>Test/QA</span>
                     </div>
                   </div>
                   <div className="mt-6 p-4 bg-gradient-to-r from-blue-700/20 to-amber-600/20 rounded-lg">
-                    <p className="font-semibold">Consultant SAP & Développeur Full Stack</p>
-                    <p className="text-sm opacity-80">Spécialisation en SAP S/4HANA, FIORI/UI5, RAP et en développement Full Stack.</p>
+                    <p className="font-semibold">Consultant SAP & Ingénieur Test Logiciel & QA</p>
+                    <p className="text-sm opacity-80">Spécialisation en SAP S/4HANA, FIORI/UI5, RAP et en Test/QA.</p>
                   </div>
                 </div>
               </div>
@@ -871,7 +871,7 @@ Je suis ouvert aux opportunités professionnelles dans le développement SAP et 
               EL KHYARI ILYAS
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-              Ingénieur Full Stack • FIORI UI5/RAP • Gestion des rôles & Autorisations
+              Ingénieur Test Logiciel & QA • FIORI UI5/RAP • Gestion des rôles & Autorisations
             </p>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'} mt-2`}>
               Consultant SAP
