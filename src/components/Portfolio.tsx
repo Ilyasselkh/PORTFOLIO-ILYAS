@@ -379,7 +379,7 @@ const Portfolio = () => {
                 Consultant <span className="text-amber-400">SAP</span>
               </p>
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-                Ingénieur MIAGE spécialisé en SAP S/4HANA Public Cloud et développement FIORI. Compétences étendues en Full Stack (React, Node.js, MongoDB...)
+                Ingénieur MIAGE spécialisé en SAP S/4HANA Public Cloud et développement FIORI. Compétences étendues en Test & QA (Selenium, Postman...)
               </p>
             </div>
             
@@ -482,7 +482,7 @@ const Portfolio = () => {
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Settings className="text-blue-700" size={24} />
-                      <span>Test/QA & FIORI UI5/RAP</span>
+                      <span>FIORI UI5/RAP</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Server className="text-amber-600" size={24} />
@@ -679,14 +679,14 @@ const Portfolio = () => {
                   <span className="text-2xl">🩸</span>
                 </div>
                 <h3 className="font-bold mb-2">Rotarie - Bénévolat</h3>
-                <p className="text-sm"> Créer un site web au titre du bénévolat, Actions humanitaires, don du sang</p>
+                <p className="text-sm">Actions humanitaires, don du sang...</p>
               </div>
               <div className={`p-6 rounded-2xl ${isDark ? 'bg-slate-900' : 'bg-gray-50'} text-center hover:shadow-lg transition-all duration-300`}>
                 <div className="w-16 h-16 mx-auto mb-4 bg-amber-600/20 rounded-full flex items-center justify-center">
                   <span className="text-2xl">₿</span>
                 </div>
                 <h3 className="font-bold mb-2">Technologie Financière</h3>
-                <p className="text-sm">Cryptomonnaie, blockchain</p>
+                <p className="text-sm">Cryptomonnaie & blockchain</p>
               </div>
               <div className={`p-6 rounded-2xl ${isDark ? 'bg-slate-900' : 'bg-gray-50'} text-center hover:shadow-lg transition-all duration-300`}>
                 <div className="w-16 h-16 mx-auto mb-4 bg-blue-600/20 rounded-full flex items-center justify-center">
