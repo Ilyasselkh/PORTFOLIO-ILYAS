@@ -203,6 +203,14 @@ const Portfolio = () => {
       link: "https://www.laplume-blanche.com/"  //  lien 
     },
     {
+      title: "Site Web Club Rotaract",
+      type: "Projet Bénévolat",
+      description: "Plateforme web pour le club Rotaract présentant les activités humanitaires, les événements et les initiatives de don du sang.",
+      technologies: ["React", "Next.js", "Tailwind CSS", "EmailJS", "Responsive Design"],
+      highlights: ["Présentation des actions humanitaires", "Calendrier des événements et campagnes", "Interface moderne et engageante"],
+      link: "https://rotaract-website-v2.vercel.app/"
+    },
+    {
       title: "Application Web d'Auto Partage - Full Stack MERN",
       type: "Projet Académique",
       description: "Plateforme facilitant la consultation et location de véhicules avec géolocalisation",
@@ -545,7 +553,7 @@ const Portfolio = () => {
         <section id="projects" className={`py-20 ${isDark ? 'bg-slate-800' : 'bg-white'}`}>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-blue-700 to-amber-600 bg-clip-text text-transparent">
-              Projets Académiques
+              Projets Académiques & Personnels
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {projects.map((project, index) => (
